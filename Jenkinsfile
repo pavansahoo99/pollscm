@@ -26,7 +26,7 @@ pipeline {
         }
         failure {
             echo 'Build or tests failed!'
-            // Add additional steps for notifications or cleanup if needed
+            // Add additional steps for notifications or cleanup if neede
         }
     }
     
