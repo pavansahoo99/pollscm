@@ -31,6 +31,6 @@ pipeline {
     }
     
     triggers {
-        pollSCM('H/5 * * * *') // Poll every 5 minutes (adjust the schedule as needed)
+        pollSCM('H/2 * * * *') // Poll every 5 minutes (adjust the schedule as needed)
     }
 }
